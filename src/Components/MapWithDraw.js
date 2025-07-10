@@ -28,7 +28,7 @@ import { Loader } from "@googlemaps/js-api-loader";
 // Mock API configuration - replace with your actual values
 const GOOGLE_MAP_API_KEY = process.env.REACT_APP_GOOGLEAPI;
 const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
-const WS_API_ENDPOINT = `${process.env.REACT_APP_WS_URL}$default`;
+const WS_API_ENDPOINT = `${process.env.REACT_APP_WS_URL}/$default`;
 
 function apiUrl(path) {
   return `${API_BASE_URL}${path}`;
